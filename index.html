@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <title>A Tidy Design System</title>
+</head>
+<body>
+  <section>
+    <h1 class="top-of-page-header">A Tidy Design System</h1>
+    <p>A living directory of UI components & compositions.</p>
+  </section>
+  <section>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h2 class="with-warnings">Heading 2 with warnings</h2>
+  </section>
+  <section>
+    <p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope known as the Hubble.</p>
+    <p class="subpara"> In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope <a class="in-para-link" href="#">known as the Hubble.</a>
+    </p>
+    <div class="informational-stat">
+      <div class="stat-item">Partcipants</div>
+      <div class="stat-data">600</div>
+    </div>
+    <div class="informational-stat">
+      <div class="stat-item" >Last Updated</div>
+      <div class="stat-data">Tuesday, August 28, 2018 at 12:29 PM</div>
+    </div>
+  </section>
+  <section class="line-links">
+    <a href="#">Standalone Links</a>
+    <a href="#">Dashboard</a>
+    <a href="#">All Groups</a>
+  </section>
+  <section>
+    <p class="p-with-bullets">A Paragraph a few bullet points. Paragraphs are pretty fun, I hope you enjoy reading this one.</p>
+    <ul class="dashed">
+      <li><span>a bullet</span></li>
+      <li><span>another bullet!</span></li>
+      <li><span>this list is great</span></li>
+    </ul>
+  </section>
+  <section>
+  <nav>
+    <h4 class="nav-h4">Lists Can Also be Navigational Elements</h4>
+    <ul class="dashed">
+      <li><span><a href="#">This is a link component inside of a list</a></span></li>
+      <li><span><a href="#">This is a link component inside of a list</a></span></li>
+    </ul>
+  </nav>
+<!-- PART TWO -->
+  <section class="success-factors">
+      <h3 class="successfactors-h3">Current Success Factors</h1>
+      <p class="subpara">High Performing Human Resources team members showed the following qualities:</p>
+        <ol>
+          <li><strong>Cooperation:</strong> Ability and willingness to work with others</li>
+          <li><strong>Extraversion:</strong> Behavior where an individual enjoys being around other people.</li>
+          <li><strong>Confidence:</strong> A firm belief in oone's own abilities.</li>
+          <li><strong>Orderliness:</strong> A desire for organization, cleanliness, and symmetry.</li>
+        </ol>
+    </section>
+    <section class="buttons">
+      <button class="big-button white-b">A Regular Button</button>
+      <button class="big-button green-b">Create An Account</button>
+      <button class="big-button red-b">Destroy Everything</button>
+      <button class="small-button white-b">Minor Button</button>
+      <button class="small-button green-b">Export PDF</button>
+      <button class="small-button red-b">Delete This</button>
+    </section>
+    <section>
+      <div class="border-box">
+        <h3 class="perform-actions">Let's Perform an Action</h3>
+        <p class="subpara-actions">In the history of modern astronomy, there is pro-ably no one greater leap forward than the building and launch of the space telescope <a href="#">known as the Hubble.</a></p>
+        <button class="para-button white-b">Perform a great action</button>
+      </div>
+    </section>
+    <section class="form-section">
+      <div>
+        <div class="border-box half-width">
+          <label for="First-Name" class="contact-info-label">First Name</label>
+          <input name="first-name" placeholder="Smiles" type="text" class="actual-contact-info-label"/>
+        </div>
+        <div class="border-box-form half-width">
+          <label for="Last-Name" class="contact-info-label">Last Name</label>
+          <input name="last-name" placeholder="Davis" type="text" class="actual-contact-info-label"/>
+        </div>
+        <div class="border-box-form popravioli">
+          <label for="select-poprav" class="contact-info-label">Select:</label>
+          <select>
+            <option disabled="disabled" selected="selected">Are Poptarts Ravioli?</option>
+            <option value="1">Yes!</option>
+            <option value="2">No!</option>
+            <option value="2">Neither.</option>
+          </select>
+        </div>
+        <div class="border-box-form">
+          <p class="browse-info-label">Csv File</p>
+          <input type="file" name="choose file" class="browse-button">
+        </div>
+        <div class="border-box-form">
+          <p class="browse-info-label">Csv File</p>
+          <input type="file" name="choose file" class="browse-button">
+        </div>
+        <div class="border-box-form">
+          <label for="whatsup" class="text-area-label">What's Up</label>
+          <textarea placeholder="Tell me more" class="actual-contact-info-label" name="Whats-Up" maxlength="1000" cols="25" rows="6"></textarea>
+        </div>
+        <div class="border-box-form">
+          <input type="checkbox" />
+          <label for="remember me" class="remember-me">Remember Me</label>
+        </div>
+        <div>
+          <button class="red-b big-button">Delete Account</button>
+          <button class="white-b big-button">Create an Account</button>
+        </div>
+    </section>
+    <footer>
+      <a href="#" class="footer-link hover">Active Navigation Item</a>
+      <a href="#" class="footer-link hover">Other Nav Item</a>
+      <a href="#" class="footer-link hover ">Profile</a>
+      <a href="#" class="footer-link hover">Settings</a>
+      <button class="small-button white-b nav-b">Nav Button</button>
+    </footer>
+  </body>
+</html>
